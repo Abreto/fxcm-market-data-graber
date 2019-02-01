@@ -1,4 +1,9 @@
 
+import os
+
+app_dir = os.getcwd()
+data_dir = app_dir + '/data'
+
 url_pattern = ('https://candledata.fxcorporate.com'
     '/{periodicity}/{instrument}/{year}/{week}.csv.gz')
 
