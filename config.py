@@ -2,7 +2,6 @@
 url_pattern = ('https://candledata.fxcorporate.com'
     '/{periodicity}/{instrument}/{year}/{week}.csv.gz')
 
-print(url_pattern.format(periodicity=1, instrument=2, year=3, week=4))
 periodicity = ['m1']
 
 instruments = [
